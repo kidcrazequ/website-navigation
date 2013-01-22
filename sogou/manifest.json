@@ -1,0 +1,16 @@
+{  
+  "name": "网址导航",  
+  "version": "0.1.0",
+  "manifest_version": 2,  
+  "description": "搜狗网址导航",  
+  "browser_action": {  
+    "default_icon": "images/sogou.png" ,
+    "default_title": "网址导航"
+  },
+  "background": {
+    "scripts": ["js/background.js"]
+  },
+  "icons": {
+    "48": "images/sogou.png"
+  }
+} 
